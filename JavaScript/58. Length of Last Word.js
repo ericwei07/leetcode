@@ -16,5 +16,8 @@ var lengthOfLastWord = function (s) {
         }
     }
     return result.length
+    // experienced software engineer's solution
     // return s.split(/\s+/).slice(-1)[0].length
+    // better solution
+    // return s.split('').reverse().join('').trim().split(' ')[0].length
 }
